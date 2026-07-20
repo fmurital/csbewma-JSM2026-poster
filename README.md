@@ -1,10 +1,18 @@
 # JSM 2026 Poster Resources
-
-## csbewma: An R Package for Cumulative Standardized Binomial EWMA Control Charts with Exact Variance and Post Hoc Diagnostics
-
 Faruk Muritala 
 - Kennesaw State University
 - [Resume](https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/Faruk%20Muritala.pdf)
+
+## csbewma: An R Package for Cumulative Standardized Binomial EWMA Control Charts with Exact Variance and Post Hoc Diagnostics
+### Overview
+
+The csbewma package implements the Cumulative Standardized Binomial EWMA (CSB-EWMA) methodology for monitoring Multiple Stream Processes (MSPs). Its main features include:
+
+- Exact variance control limits
+- Optimal parameter selection
+- Visualization tools
+- Post-hoc identification using `identify_OOC()`
+- Multiple-testing corrections (Bonferroni, Holm, and BH)
 
 ### Poster
 
@@ -21,17 +29,6 @@ https://arxiv.org/abs/2601.09968
 ### Source Code
 
 [https://github.com/fmurital/csbewma](https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/run_csbewma_example.R)
-
-### Overview
-
-The csbewma package implements the Cumulative Standardized Binomial EWMA (CSB-EWMA) methodology for monitoring Multiple Stream Processes (MSPs). Its main features include:
-
-- Exact variance control limits
-- Optimal parameter selection
-- Visualization tools
-- Post-hoc identification using `identify_OOC()`
-- Multiple-testing corrections (Bonferroni, Holm, and BH)
-
 ### Run the Demo
 
 A ready-to-run example is included in this repository so you can try the method quickly.
