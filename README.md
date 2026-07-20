@@ -2,12 +2,8 @@
 
 ## csbewma: An R Package for Cumulative Standardized Binomial EWMA Control Charts with Exact Variance and Post Hoc Diagnostics
 
-Faruk Muritala  
+Faruk Muritala [Resume](https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/Faruk%20Muritala.pdf)
 Kennesaw State University
-
-### Poster
-
-### Poster
 
 ### Poster
 
