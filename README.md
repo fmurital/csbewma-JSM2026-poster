@@ -7,8 +7,9 @@ Kennesaw State University
 
 ### Poster
 
-- Download the poster PDF: poster.pdf
-- https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/JSM%202026%20Poster%20Presentation.pdf
+### Poster
+
+- [Download JSM 2026 Poster (PDF)](https://github.com/fmurital/csbewma-JSM2026-posterresentation.pdf
 
 ### CRAN Package
 
