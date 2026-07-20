@@ -23,29 +23,44 @@ https://github.com/fmurital/csbewma
 
 ### Overview
 
-The csbewma package implements the Cumulative Standardized Binomial EWMA (CSB-EWMA) methodology for monitoring Multiple Stream Processes (MSPs). Features include:
-
-### Run the Demo
-
-A ready-to-run R example is included in this repository:
-
-- [run_csbewma_example.R](run_csbewma_example.R) — the R script
-- [run_csbewma_example.sh](run_csbewma_example.sh) — one-click launcher for Linux/macOS
-
-To run the demo from the repository root:
-
-```bash
-bash run_csbewma_example.sh
-```
-
-If you prefer to run the R script directly:
-
-```bash
-Rscript run_csbewma_example.R
-```
+The csbewma package implements the Cumulative Standardized Binomial EWMA (CSB-EWMA) methodology for monitoring Multiple Stream Processes (MSPs). Its main features include:
 
 - Exact variance control limits
 - Optimal parameter selection
 - Visualization tools
 - Post-hoc identification using `identify_OOC()`
 - Multiple-testing corrections (Bonferroni, Holm, and BH)
+
+### Run the Demo
+
+A ready-to-run example is included in this repository so you can try the method quickly.
+
+Files:
+
+- [run_csbewma_example.R](run_csbewma_example.R) — the R script
+- [run_csbewma_example.sh](run_csbewma_example.sh) — a launcher script for Linux/macOS
+
+#### Option 1: Run with the launcher
+
+From the repository root, run:
+
+```bash
+bash run_csbewma_example.sh
+```
+
+This will install the package if needed and run the demo.
+
+#### Option 2: Run the R script directly
+
+If R is already installed, run:
+
+```bash
+Rscript run_csbewma_example.R
+```
+
+#### Prerequisites
+
+- R installed on your machine
+- Internet access to install the package from CRAN if it is not already installed
+
+The demo will generate synthetic binary data, run the CSB-EWMA chart, and save a plot as [csbewma_plot.pdf](csbewma_plot.pdf).
