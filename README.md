@@ -25,6 +25,25 @@ https://github.com/fmurital/csbewma
 
 The csbewma package implements the Cumulative Standardized Binomial EWMA (CSB-EWMA) methodology for monitoring Multiple Stream Processes (MSPs). Features include:
 
+### Run the Demo
+
+A ready-to-run R example is included in this repository:
+
+- [run_csbewma_example.R](run_csbewma_example.R) — the R script
+- [run_csbewma_example.sh](run_csbewma_example.sh) — one-click launcher for Linux/macOS
+
+To run the demo from the repository root:
+
+```bash
+bash run_csbewma_example.sh
+```
+
+If you prefer to run the R script directly:
+
+```bash
+Rscript run_csbewma_example.R
+```
+
 - Exact variance control limits
 - Optimal parameter selection
 - Visualization tools
