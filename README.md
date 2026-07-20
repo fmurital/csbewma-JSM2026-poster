@@ -20,15 +20,15 @@ The csbewma package implements the Cumulative Standardized Binomial EWMA (CSB-EW
 
 ### CRAN Package
 
-https://cran.r-project.org/package=csbewma
+- https://cran.r-project.org/package=csbewma
 
 ### Methodology Paper
 
-https://arxiv.org/abs/2601.09968
+- https://arxiv.org/abs/2601.09968
 
 ### Source Code
 
-[https://github.com/fmurital/csbewma](https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/run_csbewma_example.R)
+- [https://github.com/fmurital/csbewma](https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/run_csbewma_example.R)
 ### Run the Demo
 
 A ready-to-run example is included in this repository so you can try the method quickly.
