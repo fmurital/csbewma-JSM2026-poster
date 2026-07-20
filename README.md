@@ -20,7 +20,7 @@ https://arxiv.org/abs/2601.09968
 
 ### Source Code
 
-https://github.com/fmurital/csbewma
+[https://github.com/fmurital/csbewma](https://github.com/fmurital/csbewma-JSM2026-poster/blob/main/run_csbewma_example.R)
 
 ### Overview
 
